@@ -1,0 +1,14 @@
+# Exported from Render on 2024-10-26T05:23:23Z
+services:
+- type: web
+  name: hello-world-1-4
+  runtime: docker
+  repo: https://github.com/wanaonimichael/hello-world-1
+  plan: free
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+  previews:
+    generation: automatic
+version: "1"
+
